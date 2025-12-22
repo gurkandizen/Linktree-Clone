@@ -44,20 +44,22 @@ ul {
 .hero-section {
     background: var(--background-sporty);
     min-height: 100vh;
-    padding-bottom: 80px;
+    padding-top: 2.4rem;
 }
 
 .navbar {
     background-color: var(--white);
     width: 90vw;
     border-radius: 50px;
-    max-width: 1568px; 
+    max-width: 1550px; 
     margin: 2rem auto auto;
     padding: 14px 14px 14px 45px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 20px;
 }
 
 .logo-header {
@@ -76,14 +78,8 @@ ul {
 .nav-link a {
     color: var(--black);
     padding: 1.3rem 1.6rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 500;
-
-    text-decoration: none;
-    color: #1e1e1e;
-    font-size: 16px;
-    font-weight: 500;
-    transition: opacity 0.3s;
 }
 
 /* Buttons */
@@ -93,7 +89,7 @@ ul {
     font-weight: 600;
     align-items: center;
 
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     /* transition: all 0.3s; */
     border: none;
     cursor: pointer;
@@ -104,7 +100,7 @@ ul {
     background-color: var(--login-btn);
     padding: 2.2rem 2.6rem;
     border-radius: 8px;
-    margin-right: 1.6rem;
+    margin-right: .7rem;
 }
 
 .sign-up-btn {
@@ -112,4 +108,72 @@ ul {
     padding: 2.2rem 2.6rem;
     border-radius: 50px;
     color: var(--white);
+}
+
+.hero-container {
+    max-width: 1500px; 
+    margin: 2rem auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-top: 28px;
+}
+
+.hero-content {
+    flex: 1;
+    color: var(--text-green);
+}
+
+.hero-text h1 {
+    font-size: 8.8rem;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 2.4rem;
+    text-align: left;
+}
+
+.hero-text p {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.signup-from {
+    display: flex;
+}
+
+.hero-image {
+    margin-left: auto;
+    
+}
+
+.hero-image img {
+    width: 600px;
+    height: auto;
+    border-radius: 40px;
+}
+
+.signup-from {
+    display: flex;
+    gap: 8px;
+    margin-top: 5rem;
+}
+
+.signup-from input {
+    padding: 1.5rem;
+    border-radius: 9px;
+    border: none;
+    font-size: 1.6rem;
+    height: 60px;
+    width: 290px;
+}
+
+.btn-form {
+    background-color: var(--text-green);
+    color: var(--white);
+    padding: 1rem 7rem 1rem 7rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
