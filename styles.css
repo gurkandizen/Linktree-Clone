@@ -1,5 +1,6 @@
 :root {
     --white: #ffffff;
+    --black: #000000;
 
     --background-sporty: #d2e823;
     --text-green: #244f1a;
@@ -27,7 +28,7 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1.6rem;
     line-height: 1.6;
 }
@@ -40,3 +41,75 @@ ul {
     list-style: none;
 }
 
+.hero-section {
+    background: var(--background-sporty);
+    min-height: 100vh;
+    padding-bottom: 80px;
+}
+
+.navbar {
+    background-color: var(--white);
+    width: 90vw;
+    border-radius: 50px;
+    max-width: 1568px; 
+    margin: 2rem auto auto;
+    padding: 14px 14px 14px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.logo-header {
+    width: 107.25px;
+}
+
+.logo-header a {
+    flex: none;
+}
+
+.logo-header a img {
+    color: black;
+    display: block;
+}
+
+.nav-link a {
+    color: var(--black);
+    padding: 1.3rem 1.6rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    text-decoration: none;
+    color: #1e1e1e;
+    font-size: 16px;
+    font-weight: 500;
+    transition: opacity 0.3s;
+}
+
+/* Buttons */
+.btn {
+    color: var(--black);
+    text-align: center;
+    font-weight: 600;
+    align-items: center;
+
+    font-size: 1.5rem;
+    /* transition: all 0.3s; */
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.login-btn {
+    background-color: var(--login-btn);
+    padding: 2.2rem 2.6rem;
+    border-radius: 8px;
+    margin-right: 1.6rem;
+}
+
+.sign-up-btn {
+    background-color: var(--sign-in-btn);
+    padding: 2.2rem 2.6rem;
+    border-radius: 50px;
+    color: var(--white);
+}
