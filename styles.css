@@ -1,0 +1,42 @@
+:root {
+    --white: #ffffff;
+
+    --background-sporty: #d2e823;
+    --text-green: #244f1a;
+    --login-btn: #eff0eb;
+    --sign-in-btn: #1d232f;
+
+    --background-blue: #2565d6;
+    --text-sporty: #d2e823;
+
+    --background-burgundy: #770016;
+    --text-pink: #e9c0ea;
+
+    --background-pastel-green: #e9eed6;
+    --text-dark-grey: #1e232f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
