@@ -43,8 +43,9 @@ ul {
 
 .hero-section {
     background: var(--background-sporty);
+    padding: 4.5rem 0 6rem;
     min-height: 100vh;
-    padding-top: 2.4rem;
+    padding-bottom: 120px;
 }
 
 .navbar {
@@ -52,7 +53,7 @@ ul {
     width: 90vw;
     border-radius: 50px;
     max-width: 1550px; 
-    margin: 2rem auto auto;
+    margin: 0 auto;
     padding: 14px 14px 14px 45px;
     display: flex;
     align-items: center;
@@ -112,12 +113,13 @@ ul {
 
 .hero-container {
     max-width: 1500px; 
-    margin: 2rem auto auto;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 4rem;
     margin-top: 28px;
+    overflow: hidden; /* TAŞAN GÖRSEL İÇİN */
 }
 
 .hero-content {
@@ -138,19 +140,20 @@ ul {
     font-weight: 500;
 }
 
-.signup-from {
-    display: flex;
-}
-
 .hero-image {
-    margin-left: auto;
-    
+    position: relative;
+    width: 600px;
+    height: 700px;
 }
 
 .hero-image img {
-    width: 600px;
     height: auto;
     border-radius: 40px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
 }
 
 .signup-from {
@@ -164,16 +167,70 @@ ul {
     border-radius: 9px;
     border: none;
     font-size: 1.6rem;
-    height: 60px;
+    height: 65px;
     width: 290px;
 }
 
 .btn-form {
     background-color: var(--text-green);
     color: var(--white);
-    padding: 1rem 7rem 1rem 7rem;
+    padding: 2rem 6.5rem 2rem 6.5rem;
     border: none;
     border-radius: 50px;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 600;
+}
+
+.hero-blue-container {
+    max-width: 1500px; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-top: 28px;
+}
+
+.hero-blue-content {
+    flex: 1;
+}
+
+.hero-blue-text h1 {
+    color: var(--text-sporty);
+    font-size: 5.6rem;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 2.4rem;
+    text-align: left;
+}
+
+.hero-blue-text p {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.hero-video {
+    margin-left: auto;
+}
+
+.hero-video video {
+    width: 700px;
+    height: auto;
+}
+
+.signup-blue-from {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.btn-blue-form {
+    background-color: var(--text-sporty);
+    color: var(--black);
+    padding: 2rem 6.5rem 2rem 6.5rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    align-items: center;
 }
