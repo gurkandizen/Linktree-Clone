@@ -234,3 +234,59 @@ ul {
     font-weight: 600;
     align-items: center;
 }
+
+.hero-burgundy-container {
+    max-width: 1500px; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-top: 28px;
+}
+
+.hero-burgundy-content {
+    flex: 1;
+}
+
+.hero-burgundy-text h1 {
+    color: var(--text-pink);
+    font-size: 6rem;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 2.4rem;
+    text-align: left;
+}
+
+.hero-burgundy-text p {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.hero-burgundy-image {
+    margin-left: auto;
+    transform: scale(1.2);
+    transform-origin: left center;
+}
+
+.hero-burgundy-image img {
+    width: 700px;
+    height: auto;
+}
+
+.signup-burgundy-from {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.btn-burgundy-form {
+    background-color: var(--text-pink);
+    color: var(--black);
+    padding: 2rem 6.5rem 2rem 6.5rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    align-items: center;
+}
