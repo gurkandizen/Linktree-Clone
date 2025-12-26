@@ -290,3 +290,42 @@ ul {
     font-weight: 600;
     align-items: center;
 }
+
+.hero-pastel-container {
+    max-width: 1500px; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-top: 28px;
+}
+
+.hero-pastel-content {
+    flex: 1;
+    margin-left: 35px;
+}
+
+.hero-pastel-text h1 {
+    color: var(--text-dark-grey);
+    font-size: 5.6rem;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 2.4rem;
+    text-align: left;
+}
+
+.hero-pastel-text p {
+    color: var(--text-dark-grey);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.hero-pastel-image {
+    margin-left: auto;
+}
+
+.hero-pastel-image img {
+    width: 600px;
+    height: auto;
+}
