@@ -329,6 +329,8 @@ ul {
     height: auto;
 }
 
+/* Bg Tender White Start */
+
 .headline {
     font-size: 48px;
     font-weight: 900;
@@ -383,6 +385,8 @@ ul {
         opacity: 0;
     }
 }
+
+/* CARD STYLES */
 
 .trust-image {
     display: flex;
@@ -652,4 +656,14 @@ ul {
     text-align: left;
     line-height: 1.2;
     margin: 0;
+}
+
+/* TEXT-CONTAINER */
+.text-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
 }
