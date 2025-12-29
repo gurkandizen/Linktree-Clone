@@ -668,7 +668,7 @@ ul {
     gap: 4rem;
 }
 
-/* FEATURED IN SECTION */
+/* TESTIMONIAL IN SECTION */
 .testimonial-text h2 {
     margin-bottom: 5rem;
 }
@@ -679,7 +679,7 @@ ul {
 }
 
 /* ÜSTTEKİ KARTLAR İÇİN STİL */
-.featured-grid {
+.testimonial-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
@@ -687,7 +687,7 @@ ul {
 }
 
 /* ALTTAKİ KARTLAR İÇİN STİL */
-.featured-grid-bottom {
+.testimonial-grid-bottom {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 800px;
@@ -695,7 +695,7 @@ ul {
     gap: 15px;
 }
 
-.featured-card {
+.testimonial-card {
     background-color: white;
     width: 360px;
     height: 72px;
@@ -733,4 +733,61 @@ ul {
 .fortune img {
     width: 130px;
     height: auto;
+}
+
+/* FEATURED SECTİON */
+.featured-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.featured-img img {
+    width: 800px;
+}
+
+.featured-source {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.featured-source p {
+    text-align: center;
+    font-size: 2rem;
+    color: #676B5F;
+}
+
+/* FEATURED BTN */
+.featured-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.featured-btn {
+    width: 50px;
+    height: 50px;
+    background-color: var(--background-tender-white);
+    border: 1px solid #ABABAB;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #ABABAB;
+    transition: all .5s ease;
+}
+
+.btn-back:hover {
+    color: var(--black);
+    border: 1px solid var(--black);
+}
+
+.btn-next:hover {
+    color: var(--black);
+    border: 1px solid var(--black);
 }
