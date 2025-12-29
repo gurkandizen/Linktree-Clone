@@ -667,3 +667,70 @@ ul {
     align-items: center;
     gap: 4rem;
 }
+
+/* FEATURED IN SECTION */
+.testimonial-text h2 {
+    margin-bottom: 5rem;
+}
+
+.testimonial-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* ÜSTTEKİ KARTLAR İÇİN STİL */
+.featured-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+/* ALTTAKİ KARTLAR İÇİN STİL */
+.featured-grid-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.featured-card {
+    background-color: white;
+    width: 360px;
+    height: 72px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Tech-Crunch */
+.tech-crunch img {
+    width: 160px;
+    height: auto;
+}
+
+/* Insider */
+.insider img {
+    width: 100px;
+    height: auto;
+}
+
+/* Forbes */
+.forbes img {
+    width: 100px;
+    height: auto;
+}
+
+/* Mashable */
+.mashable img {
+    width: 110px;
+    height: auto;
+}
+
+/* Fortune */
+.fortune img {
+    width: 130px;
+    height: auto;
+}
