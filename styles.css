@@ -17,6 +17,8 @@
     --text-dark-grey: #1e2330;
 
     --background-tender-white: #f3f3f1;
+
+    --background-purple: #502274;
 }
 
 * {
@@ -889,4 +891,28 @@ ul {
 .question-checkbox:checked ~ .question-content {
     max-height: 500px;
     padding-bottom: 30px;
+}
+
+.hero-purple-container {
+    max-width: 1500px; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-top: 28px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1500px; 
+    margin: 0 auto;
+}
+
+.footer-text h2 {
+    color: var(--white);
+    opacity: 0.7;
 }
