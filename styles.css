@@ -10,7 +10,7 @@
     --background-blue: #2565d6;
     --text-sporty: #d2e823;
 
-    --background-burgundy: #770016;
+    --background-burgundy: #780016;
     --text-pink: #e9c0ea;
 
     --background-pastel-green: #e9eed6;
@@ -790,4 +790,103 @@ ul {
 .btn-next:hover {
     color: var(--black);
     border: 1px solid var(--black);
+}
+
+/* QUESTİONS SECTION */
+.questions-container {
+    max-width: 1500px; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 28px;
+}
+
+.questions-container h2 {
+    font-size: 4.8rem;
+    font-weight: 900;
+    color: var(--text-pink);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.questions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Quesyions Item */
+.questions-item {
+    background: rgba(80, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.questions-item:hover {
+    background: rgba(80, 0, 0, 0.6);
+}
+
+/* Hidden Checkbox */
+.question-checkbox {
+    display: none;
+}
+
+/* Label (Soru Başlığı) */
+.question-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4.5rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.accordion-question {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--text-pink);
+    padding-right: 20px;
+}
+
+/* Question Icon */
+.question-icon {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.question-icon i {
+    width: 100%;
+    height: 100%;
+    color: var(--text-pink);
+}
+
+/* Content (Cevap) */
+.question-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+}
+
+.question-answer {
+    padding: 0 35px;
+    color: var(--text-pink);
+    font-size: 2rem;
+    line-height: 1.7;
+}
+
+/* Checked State */
+.question-checkbox:checked ~ .question-label .accordion-icon {
+    transform: rotate(180deg);
+}
+
+.question-checkbox:checked ~ .question-content {
+    max-height: 500px;
+    padding-bottom: 30px;
 }
