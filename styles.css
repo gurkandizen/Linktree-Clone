@@ -824,7 +824,7 @@ ul {
     gap: 20px;
 }
 
-/* Quesyions Item */
+/* Questions Item */
 .questions-item {
     background: rgba(80, 0, 0, 0.5);
     backdrop-filter: blur(10px);
