@@ -5,6 +5,13 @@ Projenin temel amacı, JavaScript kullanmadan sayfa düzeni, boşluklar (spacing
 
 ---
 
+## Web Sitesinin Orijinal Hali
+
+Klonlamış olduğum projenin orijinal halini aşağıdaki linkten inceleyebilirsiniz:
+[🔗 Orijinal Web Siteyi Görüntüle](https://linktr.ee/)
+
+---
+
 ## 🚀 Canlı Önizleme (Live Demo)
 
 Projenin canlı halini aşağıdaki linkten inceleyebilirsiniz:
