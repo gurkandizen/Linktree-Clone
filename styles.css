@@ -893,6 +893,7 @@ ul {
     padding-bottom: 30px;
 }
 
+/* Footer Start */
 .hero-purple-container {
     max-width: 1500px; 
     margin: 0 auto;
@@ -911,6 +912,9 @@ ul {
     flex-direction: column;
     max-width: 1500px; 
     margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 220px;
+    z-index: 2;
 }
 
 .footer-text h2 {
@@ -930,6 +934,8 @@ ul {
     border-radius: 15px;
     max-width: 1400px;
     margin: 0 auto;
+    position: relative;
+    z-index: 3;
 }
 
 /* Footer Columns */
@@ -1081,7 +1087,7 @@ ul {
     width: 200px;
 }
 
-img {
+.footer-flags img {
     max-width: 100%;
     display: inline-block;
     border-radius: 10px;
@@ -1095,4 +1101,28 @@ img {
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Footer Img */
+.footer-person-img {
+    width: 500px;
+    max-width: none;
+    border: none;
+    height: auto;
+    display: block;
+    position: absolute;
+    inset: -100% auto auto 0%;
+    transform: rotate(16.42deg);
+}
+
+.footer-flower-img {
+    width: 585px;
+    position: absolute;
+    inset: -17% -18.9% auto auto;
+}
+
+.footer-main img {
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
 }
