@@ -920,14 +920,14 @@ ul {
 
 /* Footer Main */
 .footer-main {
+    position: relative;
+}
+
+.footer-content {
     background-color: var(--white);
     padding: 60px 40px 40px;
     border-top: 3px solid transparent;
     border-radius: 15px;
-    margin-top: 200px;
-}
-
-.footer-content {
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -936,12 +936,12 @@ ul {
 .footer-cols {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 130px;
+    gap: 160px;
     margin-bottom: 60px;
 }
 
 .footer-cols h3 {
-    font-size: 1.7rem;
+    font-size: 2.4rem;
     font-weight: 700;
     color: var(--text-dark-grey);
     margin-bottom: 2.4rem;
@@ -953,8 +953,9 @@ ul {
 }
 
 .footer-cols ul li a {
-    color: #6b7280;
-    font-size: 1.52rem;
+    color: #676B5F;
+    font-size: 1.3rem;
+    font-weight: 600;
     transition: all 0.2s ease;
     display: inline-block;
 }
@@ -1060,4 +1061,38 @@ ul {
 .social-icon:hover {
     background: #2d3748;
     transform: translateY(-1px);
+}
+
+/* Footer End */
+.footer-flags {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.turk-bayragi {
+    width: 158px;
+}
+
+.ataturk {
+    width: 200px;
+}
+
+img {
+    max-width: 100%;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.footer-notes p {
+    color: #e9c0e9;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
 }
