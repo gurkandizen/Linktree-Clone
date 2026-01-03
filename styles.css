@@ -180,6 +180,7 @@ ul {
     border-radius: 50px;
     font-size: 1.7rem;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .hero-blue-container {
@@ -234,6 +235,7 @@ ul {
     font-size: 1.7rem;
     font-weight: 600;
     align-items: center;
+    cursor: pointer;
 }
 
 .hero-burgundy-container {
@@ -290,6 +292,7 @@ ul {
     font-size: 1.7rem;
     font-weight: 600;
     align-items: center;
+    cursor: pointer;
 }
 
 .hero-pastel-container {
@@ -705,6 +708,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 /* Tech-Crunch */
